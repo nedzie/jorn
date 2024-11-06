@@ -5,7 +5,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<Version>0.0.2</Version>
-	<PackageReadmeFile>/README.md</PackageReadmeFile>
 	<PackAsTool>true</PackAsTool>
 	<ToolCommandName>jorn</ToolCommandName>
 	<PackageOutputPath>./nupkg</PackageOutputPath>
@@ -15,7 +14,4 @@
 	<Authors>nedzie</Authors>
 	<PackageReleaseNotes>It contains the alpha version of jorn.</PackageReleaseNotes>
   </PropertyGroup>
-	<ItemGroup>
-	  <None Update="README.md" Pack="true" PackagePath="" />
-  </ItemGroup>
 </Project>
