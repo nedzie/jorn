@@ -14,4 +14,7 @@
 	<Authors>nedzie</Authors>
 	<PackageReleaseNotes>It contains the alpha version of jorn.</PackageReleaseNotes>
   </PropertyGroup>
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 </Project>
