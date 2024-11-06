@@ -2,7 +2,7 @@
 {
     public static class StringExtensions
     {
-        public static string AsTimeSpan(this string str)
+        public static string ToTimeSpanFormat(this string str)
         {
             return str.Insert(2, ":");
         }

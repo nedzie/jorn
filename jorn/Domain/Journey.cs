@@ -11,17 +11,17 @@ namespace jorn.Domain
 
         public void SetEntryTime(string entryTime)
         {
-            EntryTime = TimeSpan.Parse(entryTime.AsTimeSpan());
+            EntryTime = TimeSpan.Parse(entryTime.ToTimeSpanFormat());
         }
 
         public void SetLunchStartTime(string lunchStartTime)
         {
-            LunchStartTime = TimeSpan.Parse(lunchStartTime.AsTimeSpan());
+            LunchStartTime = TimeSpan.Parse(lunchStartTime.ToTimeSpanFormat());
         }
 
         public void SetLunchEndTime(string lunchEndTime)
         {
-            LunchEndTime = TimeSpan.Parse(lunchEndTime.AsTimeSpan());
+            LunchEndTime = TimeSpan.Parse(lunchEndTime.ToTimeSpanFormat());
         }
 
         public TimeSpan GetExitTime()
