@@ -10,11 +10,12 @@
 	<ToolCommandName>jorn</ToolCommandName>
 	<PackageOutputPath>./nupkg</PackageOutputPath>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<RepositoryUrl>https://github.com/nedzie/jorn</RepositoryUrl>
 	<RepositoryType>git</RepositoryType>
 	<Authors>nedzie</Authors>
-	<PackageReleaseNotes>Initial commit, it contains the alpha version.</PackageReleaseNotes>
+	<PackageReleaseNotes>It contains the alpha version of jorn.</PackageReleaseNotes>
   </PropertyGroup>
 	<ItemGroup>
-	  <None Update="readme.md" Pack="true" PackagePath="" />
+	  <None Update="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 </Project>
